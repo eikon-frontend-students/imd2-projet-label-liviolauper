@@ -25,17 +25,11 @@ header img {
   padding: 13px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 28px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: calc(100% - 56px);
-  margin: 28px;
+.divider {
+  grid-column: 2 / 6;
+  max-height: 3px;
+  background: #fff;
+  margin-top: 28px;
 }
 
 footer h2 {
@@ -43,7 +37,8 @@ footer h2 {
 }
 
 .row_top {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .row_bottom {
@@ -61,6 +56,19 @@ h2 {
 
 h3 {
   font-size: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 56px);
+  margin: 28px;
 }
 
 body {
