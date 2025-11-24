@@ -31,6 +31,14 @@ header {
   margin: 28px;
 }
 
+footer {
+  margin: 28px;
+}
+
+.row_1 {
+  display: flex;
+}
+
 h2 {
   font-size: 21.74px;
 }
@@ -40,5 +48,5 @@ body {
   background-size: 130%;
   color: #fff;
   font-family: "century-gothic";
-  font-weight: 700;
+  text-transform: lowercase;
 }
