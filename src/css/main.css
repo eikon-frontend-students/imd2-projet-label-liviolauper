@@ -13,7 +13,32 @@ video {
   display: block;
 }
 
+header img {
+  max-height: 67px;
+}
+
+.contact {
+  background: #fff;
+  color: #000;
+  max-height: 52px;
+  max-width: 108px;
+  padding: 13px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px;
+}
+
+h2 {
+  font-size: 21.74px;
+}
+
 body {
-  background: green;
-  color: purple;
+  background-image: url(../img/bg_1.png);
+  background-size: 130%;
+  color: #fff;
+  font-family: "century-gothic";
+  font-weight: 700;
 }
