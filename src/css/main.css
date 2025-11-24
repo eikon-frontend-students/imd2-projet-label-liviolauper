@@ -33,10 +33,20 @@ header {
 
 footer {
   margin: 28px;
+  max-height: 134px;
 }
 
-.row_1 {
+footer h2 {
+  margin-bottom: 21.74px;
+}
+
+.row_top {
   display: flex;
+}
+
+.row_bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {

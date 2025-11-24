@@ -8,24 +8,42 @@
     <link rel="stylesheet" href="https://use.typekit.net/gdp2zje.css">
   </head>
   <body>
-    <header>
-      <img src="img/logo_1.png" alt="label_logo">
-      <div class="contact"><h2>contact</h2></div>
-    </header>
+    <include src="./components/header.html"></include>
     <section>
       <p>"artist cards"</p>
     </section>
     <footer>
-      <div class="row_1">
+      <div class="row_top">
         <h1>Next Concerts</h1>
         <p>"ligne"</p>
       </div>
-      <div class="row_2">
-        <div class="info_1">
-          <h2>B77</h2>
-          <h3>22 November 2025
-          1999, Paris, France</h3>
-        </div>
+      <br>
+      <div class="row_bottom">
+        <include 
+        src="./components/footer/info.html"
+        locals='{"artist": "B77", "date": "22 November 2025", "place": "1999, Paris, France"}'
+        >
+        </include>
+        <include 
+        src="./components/footer/info.html"
+        locals='{"artist": "Muddy Monk", "date": "13 December 2025", "place": "Le Grand Mix, Tourcoing, France"}'
+        >
+        </include>
+        <include 
+        src="./components/footer/info.html"
+        locals='{"artist": "Anna Leone", "date": "17 December 2025", "place": "X-TRA, Zürich, Switzerland"}'
+        >
+        </include>
+        <include 
+        src="./components/footer/info.html"
+        locals='{"artist": "Papooz", "date": "24 January 2026", "place": "La Nau, Barcelona, Spain"}'
+        >
+        </include>
+        <include 
+        src="./components/footer/info.html"
+        locals='{"artist": "Crayon", "date": "17 March 2026", "place": "O2 Academy Bristol, Bristol, UK"}'
+        >
+        </include>
       </div>
     </footer>
     <script src="js/main.js" type="module"></script>
