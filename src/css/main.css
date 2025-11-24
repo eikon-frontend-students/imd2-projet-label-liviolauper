@@ -39,8 +39,16 @@ footer {
   display: flex;
 }
 
+h1 {
+  font-size: 39.39px;
+}
+
 h2 {
   font-size: 21.74px;
+}
+
+h3 {
+  font-size: 12px;
 }
 
 body {
