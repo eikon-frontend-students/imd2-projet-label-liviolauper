@@ -44,13 +44,14 @@ footer h2 {
 
 .row_top {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 21.74px;
 }
 
 .row_bottom {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 15px; /* =solution intermédiaire -> !responsive! */
 }
 
 h1 {
