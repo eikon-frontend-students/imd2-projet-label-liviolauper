@@ -16,10 +16,11 @@
       </div>
     </section>
     <footer>
-      <div class="row_top">
-        <h1>Next Concerts</h1>
-        <div class="divider"></div>
-      </div>
+        <include 
+        src="./components/footer/row_top.html"
+        locals='{"events": "Concerts"}'
+        >
+        </include>
       <div class="row_bottom">
         <include 
         src="./components/footer/info.html"
