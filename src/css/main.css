@@ -107,7 +107,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   row-gap: 28px;
-  margin: auto 112px;
+  margin: 42px 112px;
 }
 
 footer {
