@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+header img {
+  max-height: 67px;
+}
+
+.contact {
+  background: #000;
+  color: #fff;
+  max-height: 52px;
+  max-width: 108px;
+  padding: 13px;
+}
+
+.card img {
+  max-height: 172px;
+  max-width: 172px;
+  border-radius: 50%;
+}
+
+.divider {
+  grid-column: 2 / 6;
+  max-height: 3px;
+  background: #000;
+  margin-top: 28px;
+}
+
+footer h2 {
+  margin-bottom: 21.74px;
+}
+
+.row_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 21.74px;
+}
+
+.row_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 39.39px;
+}
+
+h2 {
+  font-size: 21.74px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 28px;
+  margin: 42px 112px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 56px);
+  margin: 28px;
+}
+
+body {
+  background-image: url(../img/bg_2.png);
+  background-size: 130%;
+  color: #000;
+  font-family: "century-gothic";
+  text-transform: lowercase;
+}
