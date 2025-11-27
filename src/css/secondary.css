@@ -25,9 +25,9 @@ header img {
   padding: 13px;
 }
 
-.card img {
-  max-height: 172px;
-  max-width: 172px;
+main img {
+  max-height: 344px;
+  max-width: 344px;
   border-radius: 50%;
 }
 
@@ -38,14 +38,14 @@ header img {
   margin-top: 28px;
 }
 
-footer h2 {
-  margin-bottom: 21.74px;
+footer h3 {
+  margin-bottom: 22px;
 }
 
 .row_top {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-bottom: 21.74px;
+  margin-bottom: 22px;
 }
 
 .row_bottom {
@@ -55,15 +55,19 @@ footer h2 {
 }
 
 h1 {
-  font-size: 39.39px;
+  font-size: 56px;
 }
 
 h2 {
-  font-size: 21.74px;
+  font-size: 35px;
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 14px;
 }
 
 header {
@@ -75,9 +79,8 @@ header {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   row-gap: 28px;
-  margin: 42px 112px;
+  margin: 42px 182px;
 }
 
 footer {

@@ -18,11 +18,12 @@ header img {
 }
 
 .contact {
+  align-content: center;
   background: #fff;
   color: #000;
   max-height: 52px;
-  max-width: 108px;
-  padding: 13px;
+  width: 108px;
+  padding: 0 6px;
 }
 
 .card img {
@@ -69,14 +70,14 @@ header img {
   margin-top: 28px;
 }
 
-footer h2 {
-  margin-bottom: 21.74px;
+footer h3 {
+  margin-bottom: 22px;
 }
 
 .row_top {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-bottom: 21.74px;
+  margin-bottom: 22px;
 }
 
 .row_bottom {
@@ -84,16 +85,16 @@ footer h2 {
   grid-template-columns: repeat(5, 1fr);
 }
 
-h1 {
-  font-size: 39.39px;
-}
-
 h2 {
-  font-size: 21.74px;
+  font-size: 35px;
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 14px;
 }
 
 header {
@@ -107,7 +108,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   row-gap: 28px;
-  margin: 42px 112px;
+  margin: 42px 182px;
 }
 
 footer {
