@@ -18,11 +18,12 @@ header img {
 }
 
 .contact {
+  align-content: center;
   background: #000;
   color: #fff;
-  max-height: 52px;
-  max-width: 108px;
-  padding: 13px;
+  height: 52px;
+  width: 108px;
+  padding: 11px;
 }
 
 main img {
