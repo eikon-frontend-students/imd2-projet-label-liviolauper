@@ -8,8 +8,7 @@ a {
   color: inherit;
 }
 
-img,
-video {
+img, video {
   display: block;
 }
 
@@ -18,12 +17,14 @@ header img {
 }
 
 .contact {
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   background: #000;
   color: #fff;
   height: 52px;
   width: 108px;
-  padding: 11px; /* =solution intermédiaire -> !responsive! */
 }
 
 .main_pp {

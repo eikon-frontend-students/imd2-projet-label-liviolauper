@@ -8,8 +8,7 @@ a {
   color: inherit;
 }
 
-img,
-video {
+img, video {
   display: block;
 }
 
@@ -18,7 +17,10 @@ header img {
 }
 
 .contact {
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   background: #fff;
   color: #000;
   height: 52px;
@@ -125,4 +127,13 @@ body {
   color: #fff;
   font-family: "century-gothic";
   text-transform: lowercase;
+}
+
+@media (max-width: 1210px) {
+	h2 {
+		font-size: 26px;
+	}
+  h3 {
+		font-size: 26px;
+	}
 }
