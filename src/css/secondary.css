@@ -43,6 +43,7 @@ header img {
   max-width: 108px;
   grid-column: 12 / 12;
   margin: auto;
+  cursor: pointer;
 }
 
 .divider {
@@ -121,4 +122,58 @@ p {
   font-size: 22px;
   margin-top: 22px;
   text-transform: none;
+}
+
+@media (max-width: 1500px) {
+	h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+		font-size: 28px;
+	}
+
+  h3, span, p {
+		font-size: 20px;
+	}
+
+  span {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1210px) {
+	main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin: 80px 60px;
+  }
+
+  .main_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+  }
+
+  footer {
+    position: relative;
+  }
+}
+
+@media (max-width: 850px) {
+  .row_bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
