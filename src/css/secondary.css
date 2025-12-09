@@ -26,10 +26,22 @@ header img {
   padding: 11px;
 }
 
-main img {
+.main_pp {
   max-height: 344px;
   max-width: 344px;
   border-radius: 50%;
+  grid-column: 2 / 3;
+  margin: auto;
+}
+
+.main_txt {
+  grid-column: 4 / 9;
+}
+
+.player {
+  max-width: 128px;
+  grid-column: 10 / 11;
+  margin: auto;
 }
 
 .divider {
@@ -79,15 +91,15 @@ header {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
   row-gap: 28px;
-  margin: 42px 182px;
 }
 
 footer {
   position: fixed;
   bottom: 0;
   width: calc(100% - 56px);
+  height: 148px;
   margin: 28px;
 }
 
@@ -97,4 +109,10 @@ body {
   color: #000;
   font-family: "century-gothic";
   text-transform: lowercase;
+}
+
+p {
+  font-size: 22px;
+  margin-top: 22px;
+  text-transform: none;
 }
