@@ -25,7 +25,6 @@ header img {
   color: #000;
   height: 52px;
   width: 108px;
-  padding: 11px; /* =solution intermédiaire -> !responsive! */
 }
 
 .card img {
@@ -95,6 +94,11 @@ h3 {
   font-size: 22px;
 }
 
+span {
+  font-size: 22px;
+  font-weight: 700;
+}
+
 h4 {
   font-size: 14px;
 }
@@ -131,9 +135,23 @@ body {
 
 @media (max-width: 1210px) {
 	h2 {
-		font-size: 26px;
+		font-size: 28px;
 	}
+
   h3 {
-		font-size: 26px;
+		font-size: 20px;
 	}
+
+  span {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1210px) {
+	main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin
+  }
 }

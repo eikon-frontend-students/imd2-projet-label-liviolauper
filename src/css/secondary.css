@@ -65,7 +65,6 @@ footer h3 {
 .row_bottom {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-bottom: 15px; /* =solution intermédiaire -> !responsive! */
 }
 
 h1 {
@@ -78,6 +77,11 @@ h2 {
 
 h3 {
   font-size: 22px;
+}
+
+span {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 h4 {
