@@ -46,12 +46,24 @@ header img {
   grid-column: 1;
 }
 
+.card_1 img:hover {
+  content: url(../img/pp_1_b.png);
+}
+
 .card_2 {
   grid-column: 3;
 }
 
+.card_2 img:hover {
+  content: url(../img/pp_2_b.png);
+}
+
 .card_3 {
   grid-column: 5;
+}
+
+.card_3 img:hover {
+  content: url(../img/pp_3_b.png);
 }
 
 .card_4 {
@@ -59,9 +71,17 @@ header img {
   grid-row: 2;
 }
 
+.card_4 img:hover {
+  content: url(../img/pp_4_b.png);
+}
+
 .card_5 {
   grid-column: 4;
   grid-row: 2;
+}
+
+.card_5 img:hover {
+  content: url(../img/pp_5_b.png);
 }
 
 .divider {

@@ -35,6 +35,10 @@ header img {
   margin: auto;
 }
 
+.main_pp:hover {
+  content: url(../img/hero_b.png);
+}
+
 .main_txt {
   grid-column: 4 / 10;
 }
@@ -44,6 +48,10 @@ header img {
   grid-column: 12 / 12;
   margin: auto;
   cursor: pointer;
+}
+
+.player:hover {
+  content: url(../img/player_b.png);
 }
 
 .divider {
