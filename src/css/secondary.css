@@ -197,6 +197,10 @@ p {
     margin: 10vh 28px;
   }
 
+  .main_pp {
+    height: 40vh;
+  }
+
   footer {
     position: relative;
   }
