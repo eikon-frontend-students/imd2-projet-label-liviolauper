@@ -84,11 +84,7 @@ h2 {
   font-size: 35px;
 }
 
-h3 {
-  font-size: 22px;
-}
-
-span {
+h3, span {
   font-size: 22px;
   font-weight: 700;
 }
@@ -183,5 +179,25 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (min-height: 745px) {
+  main {
+    margin-top: 9vh;
+  }
+}
+
+@media (max-height: 700px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin: 10vh 28px;
+  }
+
+  footer {
+    position: relative;
   }
 }
